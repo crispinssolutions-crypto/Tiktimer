@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1c003b, #4b0082);
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e0b3ff;
+}
+
+nav a {
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #dcd0ff;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(145deg, #2e005f, #4b0082);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #e6ccff;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #d8bfff;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  display: inline-block;
+  background: #a64bf4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #8b32e3;
+}
+
+.features {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #e0b3ff;
+  margin-bottom: 2rem;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.feature-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #f0d9ff;
+}
+
+.feature-box p {
+  color: #e2ccff;
+}
+
+.about {
+  padding: 3rem 2rem;
+  background: #2b0055;
+  text-align: center;
+}
+
+.about h2 {
+  color: #f0d9ff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  color: #d1b3ff;
+}
+
+.footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: #1a0033;
+  color: #bb99ff;
+}
+.contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff22;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #8e2de2;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.9;
+}
+
+.contact-details a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.privacy {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .privacy h2 {
+    margin-bottom: 20px;
+  }
+
+  .privacy p {
+    margin-bottom: 16px; /* Add space between each paragraph */
+    line-height: 1.6;     /* Make text more readable */
+  }
